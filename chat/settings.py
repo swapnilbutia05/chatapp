@@ -51,7 +51,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'home',
     'account',
-    'public_chat',
     'channels',
     'chat2',
 ]

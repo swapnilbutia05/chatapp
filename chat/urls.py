@@ -57,7 +57,7 @@ urlpatterns = [
     path('account/', include('account.urls', namespace='account')), # TODO: ADD THIS LINE.
 
     path('search/', account_search_view, name="search"), # New url for account_search_view
-    path('chat2/', include('chat2.urls')),
+    #path('chat2/', include('chat2.urls')),
 
 
 ]
